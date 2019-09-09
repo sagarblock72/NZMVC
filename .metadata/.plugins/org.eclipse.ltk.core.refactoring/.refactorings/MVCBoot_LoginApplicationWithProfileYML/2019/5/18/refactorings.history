@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;MVCBoot_LoginApplicationWithProfileYML&apos;&#x0D;&#x0A;- Original project: &apos;MVCBoot_LoginApplicationWithProfileYML&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     application-dev.properties&#x0D;&#x0A;     application-prod.properties&#x0D;&#x0A;     application.yml" description="Delete elements" element1="src/main/resources/application-prod.properties" element2="src/main/resources/application-dev.properties" element3="src/main/resources/application.yml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1556989744566" subPackages="false" version="1.0"/>
+</session>

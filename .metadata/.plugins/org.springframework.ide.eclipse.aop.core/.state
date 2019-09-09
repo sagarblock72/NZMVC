@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="MVCProc_06_AbstractCommandController"/>
+<aop-project name="MVCProc_FileUploading"/>
+<aop-project name="MVCBoot_LoginApplicationWithProfile"/>
+<aop-project name="MVCBoot_LoginApplicationWithProfileYML"/>
+<aop-project name="MVCProc_SpringTileTests"/>
+<aop-project name="MVC_loginApp_AnootationSFC"/>
+<aop-project name="MVCSpringSecurityTest"/>
+<aop-project name="MVC_loginApp_AnootationSFC2CompleteAnooValidator"/>
+<aop-project name="MVCBoot_FaceBookDataAccesss"/>
+<aop-project name="MVCProc_09_initbinder"/>
+<aop-project name="MVCBoot_CRUDOPMIniProc"/>
+<aop-project name="MVCBoot_LoginApplication"/>
+<aop-project name="MVCBoot_LoginApplicationWithORM"/>
+<aop-project name="MVCBoot_FirstAppWishApp"/>
+<aop-project name="MVC_MiniProjectCRUDOperation_08"/>
+<aop-project name="MVCProc_06_AbstractCommandController2WithAnnotation"/>
+<aop-project name="ORMProc_CRUDOP"/>
+<aop-project name="WishAppWithAnootation"/>
+<aop-project name="MVCProv_05_RealtimeAbstractControoler"/>
+<aop-project name="SpringBootWithAngular"/>
+<aop-project name="MVCProc_07_SimpleformController"/>
+<aop-project name="MVC_MiniProjectCRUDOperationAnnoTation"/>
+</aop-reference-model>

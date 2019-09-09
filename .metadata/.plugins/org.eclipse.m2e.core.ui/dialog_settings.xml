@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\NZ-MVC\MVCBoot_LoginApplicationWithORM"/>
+			<item value="F:\NZ-MVC\MVCProc_07_SimpleformController"/>
+			<item value="F:\NZ-MVC\MVCProc_06_AbstractCommandController"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="MVCProc_06_AbstractCommandController"/>
+			<item value="MaveenTest"/>
+		</list>
+		<list key="groupId">
+			<item value="01"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringBootWithAngular7"/>
+			<item value="MVCSpringSecurityTest"/>
+			<item value="ORMProc_CRUDOP"/>
+			<item value="ORMproc_CRUDOperation"/>
+			<item value="WishAppWithAnootation"/>
+			<item value="MVCProc_10_AbstractWizardController"/>
+			<item value="MVCProc_09_initbinder"/>
+			<item value="MVC_MiniProjectCRUDOperation_08"/>
+			<item value="MVCProc_07_SimpleformController"/>
+			<item value="MVCProc_06_AbstractCommandController"/>
+			<item value="MVCProv_05_RealtimeAbstractControoler"/>
+			<item value="MaveenTest"/>
+			<item value="02"/>
+			<item value="01"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

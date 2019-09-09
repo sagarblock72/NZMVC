@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	 
+	 <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+	 <property name="mappings">
+	 <props>
+	 <prop key="welcome.htm">pvc1</prop>
+	 <prop key="list.htm">cn1</prop>
+	 <prop key="update.htm">locc</prop>
+	 <prop key="delete.htm">dlcc</prop>
+	 <prop key="newuser.htm">cn2</prop>
+	 </props>
+	 </property>
+	 </bean>
+	 
+<bean id="dlcc" class="com.nt.controller.Deleterecordcontroller">
+<constructor-arg ref="service"/>
+</bean>	 
+	 
+<bean id="locc" class="com.nt.controller.ListOnecontroller">
+<property name="formView" value="update_record"/>
+
+<property name="commandClass" value="com.nt.command.CustomerCommand"/>
+<property name="commandName" value="ctCmd"/>
+<constructor-arg ref="service"/>
+</bean>	 
+
+<bean id="validate" class="com.nt.validator.StudentInsertController"/>
+
+<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+<property name="basename" value="com.nt.commans.StCmdError"/>
+
+</bean>
+
+
+<bean id="cn2" class="com.nt.controller.NewCustomerRegcontroller">
+<property name="formView" value="register"/>
+<property name="validator" ref="validate"/>
+<property name="commandClass" value="com.nt.command.CustomerCommand"/>
+<property name="commandName" value="ctCmd"/>
+<property name="sessionForm" value="true"/>
+<constructor-arg ref="service"/>
+</bean>
+
+<bean id="cn1" class="com.nt.controller.ListAllController">
+<constructor-arg ref="service"/>
+</bean>
+
+<bean id="pvc1" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+<property name="viewName" value="home"/>
+</bean>
+
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<property name="prefix" value="/WEB-INF/pages/"/>
+<property name="suffix" value=".jsp"/>
+</bean>
+
+</beans>

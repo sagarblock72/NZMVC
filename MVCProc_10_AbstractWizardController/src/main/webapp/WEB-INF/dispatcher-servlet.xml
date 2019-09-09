@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+<property name="mappings">
+<props>
+<prop key="welcome.htm">pvc</prop>
+<prop key="register.htm">awc</prop>
+</props>
+</property>
+</bean>
+
+<bean id="awc" class="com.nt.controller.RegisterController">
+<property name="commandName" value="regCmd"/>
+<property name="commandClass" value="com.nt.command.RegisterCommand"/>
+<property name="pages">
+<array>
+<value>page1form</value>
+<value>page2form</value>
+<value>page3form</value>
+
+</array>
+</property>
+</bean>
+
+<bean id="pvc" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+<property name="viewName" value="welcome"/>
+</bean>
+
+
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<property name="prefix" value="/WEB-INF/pages/"/>
+<property name="suffix" value=".jsp"/>
+</bean>
+</beans>

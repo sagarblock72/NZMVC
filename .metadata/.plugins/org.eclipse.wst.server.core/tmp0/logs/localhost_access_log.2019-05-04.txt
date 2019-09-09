@@ -1,0 +1,17 @@
+127.0.0.1 - - [04/May/2019:22:26:07 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:26:18 +0530] "GET /MVCBoot_LoginApplication/ HTTP/1.1" 200 462
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:26:24 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:26:49 +0530] "POST /MVCBoot_LoginApplication/;jsessionid=2785E0A8F338B5D67CB2F3A2FC5FF995 HTTP/1.1" 200 438
+127.0.0.1 - - [04/May/2019:22:33:28 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:33:32 +0530] "GET /MVCBoot_LoginApplication/ HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:33:48 +0530] "POST /MVCBoot_LoginApplication/ HTTP/1.1" 200 438
+127.0.0.1 - - [04/May/2019:22:49:56 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:50:03 +0530] "GET /MVCBoot_LoginApplication/ HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:50:09 +0530] "POST /MVCBoot_LoginApplication/ HTTP/1.1" 200 438
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:50:16 +0530] "POST /MVCBoot_LoginApplication/ HTTP/1.1" 200 441
+127.0.0.1 - - [04/May/2019:22:52:21 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:52:23 +0530] "GET /MVCBoot_LoginApplication/ HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:52:31 +0530] "POST /MVCBoot_LoginApplication/ HTTP/1.1" 200 438
+127.0.0.1 - - [04/May/2019:22:55:38 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:55:39 +0530] "GET /MVCBoot_LoginApplication/ HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [04/May/2019:22:55:46 +0530] "POST /MVCBoot_LoginApplication/ HTTP/1.1" 200 438

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ResultsetExtractor&apos;" deleteContents="false" description="Delete resource &apos;ResultsetExtractor&apos;" element1="/ResultsetExtractor" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1554922144279"/>&#x0A;<refactoring comment="Delete resource &apos;MVCProc_LoginAppUsingAnootationSimpleformcontroller&apos;" deleteContents="false" description="Delete resource &apos;MVCProc_LoginAppUsingAnootationSimpleformcontroller&apos;" element1="/MVCProc_LoginAppUsingAnootationSimpleformcontroller" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1555087593171"/>
+</session>

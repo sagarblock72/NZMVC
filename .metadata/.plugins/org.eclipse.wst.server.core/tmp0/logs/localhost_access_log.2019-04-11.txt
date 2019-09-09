@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Apr/2019:00:05:59 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [11/Apr/2019:00:06:01 +0530] "GET /MVCProv_05_RealtimeAbstractControoler/ HTTP/1.1" 200 94
+0:0:0:0:0:0:0:1 - - [11/Apr/2019:00:06:20 +0530] "GET /MVCProv_05_RealtimeAbstractControoler/listEmps.htm HTTP/1.1" 500 4098
+127.0.0.1 - - [11/Apr/2019:00:15:39 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [11/Apr/2019:00:15:41 +0530] "GET /MVCProv_05_RealtimeAbstractControoler/ HTTP/1.1" 200 94
+0:0:0:0:0:0:0:1 - - [11/Apr/2019:00:15:50 +0530] "GET /MVCProv_05_RealtimeAbstractControoler/listEmps.htm HTTP/1.1" 500 4098

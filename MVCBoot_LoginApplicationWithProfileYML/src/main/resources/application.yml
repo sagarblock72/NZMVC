@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp 
+      
+  profiles:
+    active: jndi
+    
+  
+    

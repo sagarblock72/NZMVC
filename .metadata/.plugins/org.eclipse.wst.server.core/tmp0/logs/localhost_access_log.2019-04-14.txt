@@ -1,0 +1,11 @@
+127.0.0.1 - - [14/Apr/2019:00:01:26 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:01:26 +0530] "GET /MVC_loginApp_AnootationSFC/ HTTP/1.1" 404 1047
+127.0.0.1 - - [14/Apr/2019:00:03:44 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:03:58 +0530] "GET /MVC_loginApp_AnootationSFC2CompleteAnooValidator/ HTTP/1.1" 200 457
+127.0.0.1 - - [14/Apr/2019:00:05:40 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:05:51 +0530] "GET /MVC_loginApp_AnootationSFC/ HTTP/1.1" 200 967
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:06:24 +0530] "POST /MVC_loginApp_AnootationSFC/ HTTP/1.1" 200 1023
+127.0.0.1 - - [14/Apr/2019:00:10:52 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:11:01 +0530] "GET /MVC_loginApp_AnootationSFC/ HTTP/1.1" 200 977
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:11:25 +0530] "POST /MVC_loginApp_AnootationSFC/ HTTP/1.1" 200 1095
+0:0:0:0:0:0:0:1 - - [14/Apr/2019:00:11:39 +0530] "POST /MVC_loginApp_AnootationSFC/ HTTP/1.1" 200 1083

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/springMVC"/>
+	<classpathentry kind="lib" path="E:/spring-framework-5.1.2.RELEASE-dist/spring-framework-5.1.2.RELEASE/libs/spring-jdbc-5.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/database/winx64_12102_database_1of2/database/stage/ext/jlib/ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
